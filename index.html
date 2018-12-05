@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Proyecto Papaya</title>
+        <link rel="stylesheet" href="css/docsupport/prism.css">
+        <link rel="stylesheet" href="css/chosen.css">
+        <link href="css/simple-sidebar.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap-select.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap-select.js"></script>
+        <script src="js/jquery.js"></script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <!-- Sidebar -->
+            <div id="sidebar-wrapper">
+                <ul class="sidebar-nav">
+                    <li class="sidebar-brand">
+                        <a href="#">
+                            Bienvenido Erick
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">Mi Perfil</a>
+                    </li>
+                    <li>
+                        <a href="#">Itinerario</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Servicios <spasn class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li class="dropdown-header"></li>
+                            <li><a href="#">Trivago</a></li>
+                            <li><a href="#">Uber</a></li>
+                            <li><a href="#">Otro</a></li>
+                            <li><a href="#">Otro</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Contacto</a>
+                    </li>
+                    <li>
+                        <a href="#">Acerca de</a>
+                    </li>
+                </ul>
+            </div>
+            <div id="page-content-wrapper">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12">
+                             <div style="position:absolute; top:10px; right:10px;">
+                                  <img src="fonts/g+.png" id="imagenLoc">
+                                  <img src="fonts/fb.png" id="imagenLoc">
+                                  <img src="fonts/tw.png" id="imagenLoc">
+                                  <img src="fonts/avatar.png" id="imagenLoc"> 
+                                  
+                                  <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" > idioma <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li class="dropdown-header"></li>
+                            <li><a href="#">espanol</a></li>
+                            <li><a href="#">ingles</a></li>
+                            <li><a href="#">frances</a></li>
+                            <li><a href="#">Otro</a></li>
+                        </ul>
+                    </li>  
+                              </div>
+                            <img src="fonts/menu.png" id="imagenMenu">
+                            <div style="position:absolute;  right:220px;"> 
+                            <img src="fonts/Logo1.png" id="imagenLogo">
+                            </div>
+                            <form action="paginas/lugar.php" method="POST">
+                              <div class="container" id="select">
+                                  <font color="white" size="+2">Selecciona un Estado de la Republica Mexicana</font>
+                                  <div class="form-group">
+                                    <div class="col-lg-10">
+                                      <select id="basic" name="selector" class="selectpicker show-tick form-control" data-live-search="true">
+                                        <option value="Aguascalientes">Aguascalientes</option>
+                                        <option value="Baja California">Baja California</option>
+                                        <option value="Baja California Sur">Baja California Sur</option>
+                                        <option value="Campeche">Campeche</option>
+                                        <option value="Ciudad de Mexico">Ciudad de Mexico</option>
+                                        <option value="Coahuila de Zaragoza">Coahuila de Zaragoza</option>
+                                        <option value="Colima">Colima</option>
+                                        <option value="Chiapas">Chiapas</option>
+                                        <option value="Chihuahua">Chihuahua</option>
+                                        <option value="Durango">Durango</option>
+                                        <option value="Guanajuato">Guanajuato</option>
+                                        <option value="Guerrero">Guerrero</option>
+                                        <option value="Hidalgo">Hidalgo</option>
+                                        <option value="Jalisco">Jalisco</option>
+                                        <option value="Estado de MexicoMEX">Estado de Mexico</option>
+                                        <option value="Michoacán de Ocampo">Michoacán de Ocampo</option>
+                                        <option value="Morelos">Morelos</option>
+                                        <option value="Morelos">Nayarit</option>
+                                        <option value="Nuevo León">Nuevo León</option>
+                                        <option value="Oaxaca">Oaxaca</option>
+                                        <option value="Puebla">Puebla</option>
+                                        <option value="Queretaro">Queretaro</option>
+                                        <option value="Quintana Roo">Quintana Roo</option>
+                                        <option value="San Luis Potosi">San Luis Potosi</option>
+                                        <option value="Sinaloa">Sinaloa</option>
+                                        <option value="Sonora">Sonora</option>
+                                        <option value="Tabasco">Tabasco</option>
+                                        <option value="Tamaulipas">Tamaulipas</option>
+                                        <option value="Tlaxcala">Tlaxcala</option>
+                                        <option value="Veracruz de Ignacio de la Llave">Veracruz de Ignacio de la Llave</option>
+                                        <option value="Yucatan">Yucatan</option>
+                                        <option value="Zacatecas">Zacatecas</option>
+                                      </select>
+                                    </div>
+                                    <input type=image src="fonts/lupa.png" id="imagenLoc1">
+                                    
+                                  </div>
+                              </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /#page-content-wrapper -->
+        </div>
+        <!-- /#wrapper -->
+        <!-- Menu Toggle Script -->
+        <script>
+            $("#wrapper").toggleClass("toggled");
+            $("#imagenMenu").click(function (e) {
+                e.preventDefault();
+                $("#wrapper").toggleClass("toggled");
+            });
+        </script>
+    </body>
+</html>

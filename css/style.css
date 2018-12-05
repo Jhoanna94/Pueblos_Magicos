@@ -1,0 +1,37 @@
+.demo-attention {
+	background-color: #D35400;
+	color: #fff;
+	padding: 10px;
+	width: 400px;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 25px;
+	border-radius: 3px;
+}
+.demo-iframe {
+	background-color: #fff;
+	padding: 10px 25px;
+}
+.demo-wrapper {
+	width: 600px;
+	margin: 0 auto;
+}
+.demo-wrapper iframe {
+	border: 1px solid #ccc;
+	width: 100%;
+	background-color: #fff;
+	height: 400px;
+}
+.demo-wrapper iframe::-webkit-scrollbar {
+    width: 12px;
+}
+.demo-wrapper iframe::-webkit-scrollbar-track {
+    background-color: #eaeaea;
+    border-left: 1px solid #ccc;
+}
+.demo-wrapper iframe::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+}
+.demo-wrapper iframe::-webkit-scrollbar-thumb:hover {
+	background-color: #aaa;
+}

@@ -1,0 +1,31 @@
+
+.demo-iframe {
+	
+	padding: 10px 25px;
+}
+.form-group {
+	width: 600px;
+	height: 300px;
+	margin: 0 auto;
+	background-color: transparent;
+}
+.form-group iframe {
+	border: 0px solid #ccc;
+	width: 100%;
+	background-color: transparent;
+	height: 100%;
+}
+.form-group iframe::-webkit-scrollbar {
+	background-color: transparent;
+    width: 3px;
+}
+.form-group iframe::-webkit-scrollbar-track {
+    background-color: #FFFFFF;
+    border-left: 0px solid #ccc;
+}
+.form-group iframe::-webkit-scrollbar-thumb {
+    background-color: #BDBDBD;
+}
+.form-group iframe::-webkit-scrollbar-thumb:hover {
+	background-color: transparent;
+}
